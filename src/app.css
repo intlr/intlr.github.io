@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Inter';
+    src: local('Inter'), url(./inter.ttf) format('truetype');
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.feature p {
+    line-height: 1.6rem;
+}
