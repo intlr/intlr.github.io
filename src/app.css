@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Inter';
-    src: local('Inter'), url(./inter.ttf) format('truetype');
+    src: local('Inter'), url(./inter.ttf) format('ttf');
 }
 
 body {
@@ -9,4 +9,8 @@ body {
 
 .feature p {
     line-height: 1.6rem;
+    text-align: justify;
+    font-weight: 400;
+    font-size: 0.9rem;
+    letter-spacing: -0.3px;
 }
